@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     # 'django.contrib.messages',
     # 'django.contrib.staticfiles',
     'rest_framework',
-    'auth'
+    'auth', # add your app in the INSTALLED_APPS
+
 ]
 
 MIDDLEWARE = [
@@ -105,7 +106,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'zh-tw'
+LANGUAGE_CODE = 'zh-TW'
 
 TIME_ZONE = 'Asia/Taipei'
 

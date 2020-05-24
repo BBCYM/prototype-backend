@@ -17,5 +17,7 @@ Including another URLconf
 from django.urls import path
 from auth.views import AuthView
 urlpatterns = [
+    # 首頁的view為AuthView，從auth這個app的views裡import過來的
+    # path第一個參數即為url
     path('', AuthView.as_view(),name='index'),
 ]
