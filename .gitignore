@@ -130,3 +130,5 @@ dmypy.json
 .history
 dfcredentials.json
 # End of https://www.gitignore.io/api/django,visualstudiocode
+
+dfcredentials.json
